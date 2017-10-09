@@ -1,4 +1,5 @@
 #!/bin/bash
+set -o xtrace
 
 if [[ $TRAVIS_OS_NAME == 'osx' ]]; then
 	# If in OSX, we need to install python by hand.
